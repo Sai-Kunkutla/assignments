@@ -1,0 +1,67 @@
+#try 5 different functions of the string in python
+
+>>> a ="sai"
+>>> b ="subramanyam"
+>>> a+b
+'saisubramanyam'
+>>> a.capitalize()
+'Sai'
+>>> a.upper()
+'SAI'
+>>> b[:4]
+'subr'
+>>> b[5]
+'m'
+>>> b.upper()
+'SUBRAMANYAM'
+>>> b.lower()
+'subramanyam'
+>>> a.lower()
+'sai'
+>>> a+b
+'saisubramanyam'
+>>> c=a+b
+>>> c
+'saisubramanyam'
+>>> c[:-1]
+'saisubramanya'
+>>> c[:8]
+'saisubra'
+>>> 
+
+
+
+#try 5 different functions of the list objects in the python
+
+animals =['dog','cat','tiger','food','fox']
+print(animals)
+animals[3] ='ant'                 #replace
+print(animals)
+animals.insert(2,'elephant')      #insert
+print(animals)
+animals.append('lion')            #append
+print(animals)
+animals.sort()                    #sort
+print(animals)
+animals.reverse()                 #reverse
+print(animals)
+del animals[2]                    #del
+print(animals)
+
+
+
+# try 5 defulat functions in dictionary
+
+
+dict()
+num ={1:'one',2:'two',3:'three'}
+print(num)
+num2 = dict(num)
+print(num2)
+len(num2)
+del num[1]
+print(num)
+1 in num
+2 in num
+
+

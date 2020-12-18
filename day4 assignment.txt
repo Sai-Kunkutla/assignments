@@ -1,0 +1,28 @@
+#write down a program in python for opening a file and writing"i love letsupgrade"
+and close it,and read it back again and append some data to it and close it.
+
+x = open ("pyapp",'w')
+x.write("i love letsupgrade")
+x.close()
+x = open("pyapp",'a+')
+x.read()
+x.write(" to learn python")
+x.close()
+
+file output: i love letsupgrade to learn python
+
+
+
+#write a function which can return a factorial of any number as int,given in the 
+ argument
+
+
+#x =int(input('enter fact number'))
+def fact(x):
+   f=1
+   while x!=0:
+      f=x*f
+      x -=1
+   return(f)
+re=fact(3)
+print(re)
